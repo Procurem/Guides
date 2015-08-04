@@ -7,12 +7,20 @@ $ git checkout -b new-feature-branch
 
 Develop on local machine
 
+Put each minor change in a commit
+
 ```sh
 $ git add .
 $ git commit -m "commit message"
 ```
+Once completed with all commits 
+* Adjust for all style issues
 
-For each minor change
+```sh
+$ pronto run
+```
+
+Once you are done with all minor changes, push the new-feature branch up
 
 ```sh
 $ git push origin new-feature-branch
